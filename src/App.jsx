@@ -7,9 +7,6 @@ import {
 } from "@apollo/client";
 import "./index.css"
 
-console.log(import.meta.env.DEV)
-console.log(import.meta.env.PROD)
-console.log(import.meta.env.VITE_HOST_URL)
 
 const client = new ApolloClient({
   uri: import.meta.env.VITE_HOST_URL,
